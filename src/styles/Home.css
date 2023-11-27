@@ -1,0 +1,16 @@
+h6{
+ font-family:  'Roboto Slab', serif;
+ font-size: 1.6rem;
+ letter-spacing: 1.5px;
+ text-align: center;
+}
+.home-shop{
+     color:  green;
+      font-size: 2.9rem;
+      font-style: italic;
+      text-decoration: underline;
+}
+
+body{
+      background-color: rgb(253, 253, 252);
+}

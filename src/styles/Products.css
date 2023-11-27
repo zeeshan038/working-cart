@@ -1,0 +1,55 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:350px;
+    margin: 0 6px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+   
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+  
+    box-shadow: 2px 10px 10px rgba(0,0,0,0.1);
+ 
+    border-radius: 16px;
+   
+    /* background-color: white; */
+   margin: 12px 19px;
+    
+    height: 600px;
+  
+}
+.pro-title{
+    font-size: 2rem;
+    font-family: Roboto ;
+ text-align: center;
+ 
+ margin: 3px  9rem;
+}
+.card-info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.addtocart{
+    background-color: rgb(137, 1, 137);
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.addtocart:hover{
+    background-color: rgb(191, 0, 191);
+}

@@ -1,0 +1,27 @@
+.navbar{
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    background-color: rgb(233, 248, 233);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+ 
+
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin: 0 30px;
+    cursor: pointer;
+}
+.items-length{
+   font-size: 1.3rem;
+   font-weight: bolder;
+}
